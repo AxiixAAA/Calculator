@@ -1,0 +1,18 @@
+.profile {
+    margin-left: 20px;
+
+    color: var(--font-grey);
+}
+
+.userProfile {
+    margin-bottom: 10px;
+    background-color: var(--bg-header);
+    border-radius: 3px;
+}
+
+.posts {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: var(--bg-header);
+    border-radius: 3px;
+}

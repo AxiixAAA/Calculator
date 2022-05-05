@@ -1,0 +1,22 @@
+.inputForm {
+    margin-left: 20px;
+}
+
+.input {
+    margin-right: 10px;
+    padding: 0;
+    width: 230px;
+    height: 20px;
+    border: none;
+    outline: none;
+    background-color: var(--bg-header);
+    color: var(--font-grey);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    font-style: normal;
+    letter-spacing: normal;
+    box-shadow: 0px 1px 0px #fff;
+}

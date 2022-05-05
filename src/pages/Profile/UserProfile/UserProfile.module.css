@@ -1,0 +1,164 @@
+h2 {
+    margin: 0;
+}
+
+.wrapper {
+    color: var(--font-grey);
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-bottom: 50px;
+}
+
+.photoWrapper {
+    margin-top: 20px;
+    margin-left: 20px;
+    position: relative;
+}
+.photoWrapper:hover .labelInput {
+    opacity: 0.7;
+}
+
+.avaPhoto {
+    max-width: 300px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(20, 20, 20, 0.5);
+    cursor: pointer;
+}
+
+.avaImage {
+    max-width: 300px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px rgba(20, 20, 20, 0.5);
+}
+
+.labelInput {
+    opacity: 0;
+    padding: 5px;
+    position: absolute;
+    bottom: 5px;
+    right: 0px;
+    background-color: rgb(31, 31, 31);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.fileInput {
+    display: none;
+}
+
+.about {
+    width: 300px;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.idDiv {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.jobDiv {
+    display: flex;
+    justify-content: space-between;
+}
+
+.aboutDiv {
+    display: flex;
+    justify-content: space-between;
+}
+
+.idSpan {
+    color: var(--font-grey-disactive);
+    margin-right: 10px;
+}
+
+.div {
+    margin-top: 10px;
+}
+
+.status {
+    margin-bottom: 20px;
+}
+
+.socialDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.contactsSpan {
+    color: var(--font-grey-disactive);
+}
+
+.openEditButton {
+    width: 25px;
+    height: 25px;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    background-image: url('../../../assets/images/edit.png');
+    background-size: contain;
+    opacity: 0.6;
+}
+.openEditButton:hover {
+    opacity: 0.8;
+}
+
+.closeEditButton {
+    width: 25px;
+    height: 25px;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    background-image: url('../../../assets/images/close.png');
+    background-size: contain;
+    opacity: 0.6;
+}
+.closeEditButton:hover {
+    opacity: 0.8;
+}
+
+.hideEditProfile {
+    opacity:0;
+    position: absolute;
+    transform: scale(0);
+    margin-top: -75%;
+    margin-right: -100%;
+}
+
+.formWrapper {
+    position: relative;
+    display: block;
+    margin-top: 20px;
+    
+    transition: 0.3s ease-out;
+}
+
+
+@media (max-width: 600px) {
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;    
+    }
+
+    .avaPhoto {
+        width: 200px;
+    }
+
+    .about {
+        text-align: left;
+    }
+
+    .name {
+        text-align: center;
+    }
+
+    .status {
+        text-align: center;
+    }
+}

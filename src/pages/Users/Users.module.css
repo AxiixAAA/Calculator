@@ -1,0 +1,146 @@
+.link {
+    text-decoration: none;
+}
+
+.usersSection {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.search {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.paginatorDiv {
+    overflow: hidden;
+    scroll-behavior: smooth;
+    background-color: var(--bg-header);
+    border-radius: 3px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.paginatorDiv::-webkit-scrollbar, .div::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
+}
+
+.pageNumber {
+    margin-left: 10px;
+    color: var(--font-grey-disactive);
+    cursor: pointer;
+    text-decoration: underline;
+}
+.activePage {
+    margin-left: 10px;
+    color: var(--font-grey);
+    font-size: 20px;
+    cursor: auto;
+    text-decoration: none;
+}
+
+.userWarp {
+    width: 80%;
+    margin: 0 auto;
+
+    padding: 20px;
+
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-areas: "left right";
+    grid-gap: 50px;
+
+    background-color: var(--bg-header);
+
+    border-radius: 5px;
+}
+
+.avaSide {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    grid-area: left;
+}
+
+.descriptionSide {
+    margin-right: 20px;
+
+    color: var(--font-grey);
+
+    display: flex;
+    flex-direction: column;
+
+    grid-area: right;
+}
+
+.button {
+    margin-top: 5px;
+    width: 70px;
+}
+
+.message {
+    margin-top: 10px;
+    font-size: 12px;
+    color: var(--font-grey-disactive);
+}
+
+.name {
+    color: var(--font-grey-disactive);
+}
+
+.nameText {
+    color: var(--font-grey);
+}
+
+.adress {
+    color: var(--font-grey-disactive);
+}
+
+.adressText {
+    color: var(--font-grey);
+}
+
+.add {
+    margin: 0 auto;
+    width: 200px;
+    height: 30px;
+    opacity: 0.5;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    border-radius: 20px;
+    border: none;
+}
+
+.add:hover {
+    opacity: 1;
+}
+
+.add:active {
+    opacity: 0.3;
+}
+
+.loading {
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+.nobody {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0.7;
+}
+
+.h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}

@@ -1,0 +1,22 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.active {
+    padding-right: 5px;
+    padding-left: 5px;
+    color: var(--font-grey);
+    cursor: pointer;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.disactive {
+    padding-right: 6px;
+    padding-left: 6px;
+    color: var(--font-grey-disactive);
+    cursor: pointer;
+}

@@ -1,0 +1,55 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.divWithReqField {
+    display: flex;
+    flex-direction: column;
+}
+
+.input {
+    width: 200px;
+    padding: 5px;
+    border: none;
+    border-radius: 2px;
+    outline: none;
+}
+
+.textarea{
+    width: 250px;
+}
+
+.checkboxDiv {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 20px;
+}
+
+.buttonSubmitDiv {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.buttonSubmit {
+    width: 100px;
+}
+
+.contactDiv {
+    display: flex;
+    flex-direction: column;
+}
+
+.error {
+    max-width: fit-content;
+    font-size: 10px;
+    color: rgb(206, 104, 104);
+}

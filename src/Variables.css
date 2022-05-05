@@ -1,0 +1,8 @@
+:root {
+  --bg-main-color: rgb(40, 40, 40);
+  --bg-header: rgb(58, 58, 58);
+  --bg-content: rgb(75, 75, 75);
+  --red-likes: rgb(200, 50, 50);
+  --font-grey: rgb(221, 221, 221);
+  --font-grey-disactive: rgb(160, 160, 160);
+}

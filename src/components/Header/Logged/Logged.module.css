@@ -1,0 +1,93 @@
+.logo {
+  width: 25px;
+
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 25px;
+}
+
+.header {
+  margin-top: 10px;
+  grid-area: h;
+  
+  border-radius: 3px;
+
+  background-color: var(--bg-header);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mobileBurger {
+  display: none;
+}
+
+.linkDiv {
+  width: 15%;
+  margin-right: 20px;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--font-grey);
+}
+
+.userName {
+  color: var(--font-grey-disactive);
+}
+
+
+
+
+@media (max-width: 600px) {
+  .header {
+    width: 100vw;
+    margin-top: 0px;
+    border-radius: 0px;
+    height: 50px;
+    position: fixed;
+    z-index: 102;
+  }
+
+  .mobileBurger {
+    display: block;
+    width: 24px;
+    height: 20px;
+    margin-right: 20px;
+    background-image: url("../../../assets/images/burger.svg");
+    background-repeat: no-repeat;
+    background-position-y: center;
+    opacity: 0.8;
+  }
+
+  .mobileCross {
+    display: block;
+    width: 24px;
+    height: 15px;
+    margin-right: 20px;
+    background-image: url("../../../assets/images/cross.svg");
+    background-repeat: no-repeat;
+    background-position-y: center;
+    opacity: 0.8;
+  }
+
+  .linkDiv {
+    display: none;
+  }
+
+  .mobileLinkDiv {
+    display: block;
+    position: absolute;
+    width: 40vw;
+    top: 90vmax;
+    right: 0;
+    z-index: 101;
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+}

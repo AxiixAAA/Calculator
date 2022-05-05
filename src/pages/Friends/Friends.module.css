@@ -1,0 +1,12 @@
+.friendsWrapper {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sadness {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}

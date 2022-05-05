@@ -1,0 +1,55 @@
+.wrapper {
+    height: 600px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.opponent {
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: var(--bg-content);
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.name {
+    margin: 0;
+}
+
+.photo {
+    border-radius: 50%;
+}
+
+
+@media (max-width: 600px) {
+    .wrapper {
+        height: auto;
+        display: flex;
+        align-items: baseline;
+        overflow-x: auto;
+    }
+
+    .opponent {
+        padding: 0;
+        gap: 0px;
+        width: 100px;
+        margin-bottom: 5px;
+        display: flex;
+        flex-direction: column;
+        background-color: transparent;
+        text-align: center;
+    }
+
+    .name {
+        width: 55px;
+        margin: 0;
+        margin-left: 2px;
+        margin-right: 2px;
+        font-size: 10px;
+        text-overflow: ellipsis;
+        overflow-x: hidden;
+    }
+}

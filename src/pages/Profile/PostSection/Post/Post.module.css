@@ -1,0 +1,25 @@
+.post {
+    margin: 20px;
+}
+
+.text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    margin: 0;
+    color: var(--font-grey);
+}
+
+.onLike {
+    color: var(--red-likes);
+    cursor: pointer;
+}
+
+.likes {
+    font-size: 12px;
+    color: var(--font-grey-disactive);
+}
+
+.likesCount {
+    color: var(--font-grey-disactive);
+    cursor: pointer;
+}

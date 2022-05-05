@@ -1,0 +1,13 @@
+.link {
+    margin-left: 5px;
+    vertical-align: middle;
+    opacity: 0.5;
+}
+
+.link:hover {
+    opacity: 0.8;
+}
+
+.span {
+    color: var(--font-grey-disactive);
+}

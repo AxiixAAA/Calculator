@@ -1,0 +1,38 @@
+.form {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.input {
+    height: 30px;
+    width: 100%;
+    background-color: transparent;
+    outline: none;
+    border: 1px solid grey;
+    border-radius: 5px;
+    resize: vertical;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    color: var(--font-grey);
+}
+
+.button {
+    height: 30px;
+}
+
+
+@media (max-width: 600px) {
+    .form {
+        margin: 0 auto;
+        margin-top: 10px;
+        width: 70vw;
+    }
+
+    .input {
+        width: 100%;
+    }
+}

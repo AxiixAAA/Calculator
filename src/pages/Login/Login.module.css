@@ -1,0 +1,82 @@
+.wrapper {
+    background-color: var(--bg-content);
+    border-radius: 3px;
+}
+
+.form {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: var(--bg-content);
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px
+}
+
+.input {
+    width: 200px;
+    display: inline;
+}
+
+.checkboxWrapper {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox {
+    margin-right: 10px;
+}
+
+.label {
+    color: var(--font-grey-disactive);
+    font-size: 13px;
+}
+
+.errorText {
+    color: rgb(124, 39, 39);
+}
+
+.captchaWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.descr {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.phrase {
+    padding: 10px;
+    border-radius: 3px;
+    color: var(--font-grey-disactive);
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+    background-color:var(--bg-header)
+}
+
+.descrText {
+    font-size: 11px;
+    color:rgb(202, 202, 202);
+}
+
+.descData {
+    color: var(--font-grey);
+}
+
+.buttonGuest {
+    display: flex;
+    justify-content: center;
+}
+
+
+@media (max-width: 600px) {
+    .wrapper {
+        margin: 0 auto;
+        width: 80vw;
+    }
+}

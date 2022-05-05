@@ -1,0 +1,19 @@
+.logo {
+  width: 75px;
+
+  margin-top: 5px;
+  margin-left: 25px;
+}
+
+.header {
+  margin-top: 10px;
+  grid-area: h;
+  
+  border-radius: 3px;
+
+  background-color: var(--bg-header);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

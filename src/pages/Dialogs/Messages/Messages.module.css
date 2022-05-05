@@ -1,0 +1,58 @@
+.wrapper {
+    height: 600px;
+    flex-grow: 1;
+    padding: 20px;
+    background-color: var(--bg-header);
+    border-radius: 5px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.messageWrapper {
+    padding: 5px;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.message {
+    width: 370px;
+    margin: 0;
+    margin-right: 20px;
+    padding: 0;
+    overflow-wrap: break-word;
+}
+
+
+.photo {
+    margin-top: 5px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.senderName {
+    margin: 0;
+    padding: 0;
+    color: var(--font-grey-disactive);
+    font-size: 12px;
+}
+
+.chooseOpponent {
+    width: 450px;
+    color: var(--font-grey-disactive);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30vh;
+}
+
+
+@media (max-width: 600px) {
+    .wrapper {
+        height: 60vmax;
+    }
+
+    .message {
+        width: 75vw;
+    }
+}

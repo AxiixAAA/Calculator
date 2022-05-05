@@ -1,0 +1,32 @@
+.photoWrapper {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.photo {
+    width: 80vh;
+    height: 80vh;
+    margin-top: 5%;
+    margin-bottom: 30vh;
+    border-radius: 10px;
+}
+
+.hide {
+    display: none;
+}
+
+
+@media (max-width: 600px) {
+    .photo {
+        width: 50vh;
+        height: 50vh;
+        margin-top: 20%;
+        border-radius: 10px;
+    }
+}

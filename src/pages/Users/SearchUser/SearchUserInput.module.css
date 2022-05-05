@@ -1,0 +1,44 @@
+.form {
+    margin-bottom: 10px;
+    display: flex;
+    gap: 10px;
+    position: relative;
+}
+
+.label {
+    position: relative;
+    top: 3px;
+    opacity: 0.8;
+}
+
+.input {
+    width: 140px;
+    padding-left: 5px;
+    padding-bottom: 3px;
+    margin-right: 50px;
+    border: none;
+    outline: none;
+    background-color: var(--bg-main-color);
+    position: relative;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: normal;
+    font-size: large;
+    vertical-align: baseline;
+    color: rgb(10, 10, 10)
+}
+.button {
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: var(--bg-main-color);
+    position: absolute;
+    left: 150px;
+    top: 2px;
+    cursor: pointer;
+    opacity: 0.8;
+}
+.input:focus {
+    box-shadow: 0px 1px 0px grey;
+    transition: 0.3s;
+}

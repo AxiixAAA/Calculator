@@ -1,0 +1,93 @@
+.pagesWithButtons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.pageNumbersWrapper {
+    height: 20px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.pageNumber {
+    font-size: 20px;
+    color: var(--font-grey-disactive);
+    cursor: pointer;
+    text-decoration: none;
+}
+.pageNumber:hover {
+    opacity: 0.7;
+}
+
+.activePage {
+    color: var(--font-grey);
+    font-size: 25px;
+    cursor: auto;
+    text-decoration: none;
+}
+
+.buttonsWrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    padding: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border: none;
+    border-radius: 3px;
+    color: var(--font-grey);
+    background-color: var(--bg-content);
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.button:hover {
+    opacity: 0.7;
+}
+.button:disabled {
+    color: var(--bg-header);
+}
+
+.spanTotalPages {
+    color: var(--font-grey-disactive);
+}
+
+.inputPageWrapper {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.label {
+    color: var(--font-grey-disactive);
+    margin-right: 10px;
+}
+
+.input {
+    border: none;
+    width: 30px;
+    margin-right: 10px;
+}
+
+
+@media (max-width: 600px) {
+    .wrapper {
+        width: 100vw;
+    }
+
+    .pageNumbersWrapper {
+        width: 77vw;
+        height: 30px;
+        margin: 0;
+        gap: 5px;
+        overflow-x: auto;
+        overflow-y: hidden;
+    }
+}
