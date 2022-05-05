@@ -1,12 +1,13 @@
 import React from 'react';
-
 import './App.css';
+import Box from '@mui/material/Box';
 
 const App: React.FC = () => {
   return (
-    <div className="App">
-      sssss
-    </div>
+    <Box >
+      
+    </Box>
+
   );
 }
 
